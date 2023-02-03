@@ -1,0 +1,18 @@
+.mini-cart-dropdown{
+    background-color: rgb(244, 219, 175);
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 5px;
+    max-height: 680px;
+    padding: 1rem;
+    position: absolute;
+    width: 400px;
+    z-index: 10;
+}
+
+svg{
+   width: 2rem;
+   height: 2rem; 
+}

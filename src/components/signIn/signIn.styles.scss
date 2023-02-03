@@ -1,0 +1,36 @@
+.container-signIn {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-signIn__form {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  h1 {
+    text-align: center;
+  }
+
+  form {
+    .container-input {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 1rem;
+      input {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+        width: 500px;
+        padding: 1rem;
+        border-top: 0;
+        border-right: 0;
+        border-left: 0;
+      }
+    }
+  }
+}
+
+.container-signIn__redirect {
+  margin-top: 1rem;
+}

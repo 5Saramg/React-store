@@ -1,0 +1,36 @@
+.categories-container {
+  display: flex;
+  .category-container {
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+    height: 23rem;
+    width: 100%;
+    .category-body {
+      h2 {
+        background-color: black;
+        color: white;
+        padding: 0.5rem;
+        text-align: center;
+        //width: 100%;
+      }
+    }
+  }
+}
+
+.backgroundImage-container {
+  background-size: 100%;
+
+  &:hover {
+    background-size: 120%;
+    background-position: bottom;
+    transition: 0.2s;
+  }
+}
+
+.category-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 20px;
+  row-gap: 50px;
+}

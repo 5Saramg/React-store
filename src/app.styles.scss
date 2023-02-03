@@ -1,0 +1,23 @@
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.container {
+  margin: 0 4rem;
+}
+
+.btn {
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 1rem;
+}
+.btn-google {
+    background-color: rgb(54, 83, 201);
+    font-weight: 700;
+}
+
+.btn-submit {
+  background-color: rgb(237, 181, 113);
+  color: white;
+}
