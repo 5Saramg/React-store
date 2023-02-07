@@ -20,7 +20,7 @@ export const DirectItemContainerStyle = styled.div`
         }
 
         &.body{
-            opacity: 0.9;
+            opacity: 0.9; 
         }
     }
 `
